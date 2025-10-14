@@ -1,4 +1,4 @@
-# Analysis of the various complexities and resources used: gate count, gate depth, and number of ancillas as n → ∞.
+## Analysis of the various complexities and resources used: gate count, gate depth, and number of ancillas as n → ∞.
 
 - Using the methods proposed in Barenco et al, the number of ancillas used is 0 for all n: O(1). 
 - Gate count: at each level n of recursion, the number of gates is f(n) = 6(2) + 2 + f(n-1) = 14 + 14 + f(n-2) = 14(n-1) + 6 → O(14n - 8) = O(n)
