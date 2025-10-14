@@ -4,7 +4,6 @@ This directory contains for a multi-controlled U gate in Qiskit using only arbit
 # File Directory
 - [`/images`](./images/) - contains images of reference material for easy embedding in Jupyter notebook
 - [`multi-controlled-gate.ipynb`](./multi-controlled-gate.ipynb) - step-by-step implementation and verification of gate, with explanatory material and examples for small n: good for exploring the method
-- `cU.py` - cleaned-up single-control U gate implementation
-- `cnU.py` - cleaned-up multi-control U gate implementation
+- `cnU.py` - cleaned-up n-control U gate implementation
 - `complexity-analysis.txt` - detailed analysis of asymptotic complexity, resources used in my implementation
 
